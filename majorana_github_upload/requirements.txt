@@ -1,0 +1,5 @@
+# Versions recorded for the archived 10 August 2026 numerical run.
+# The programs were not rerun after the final editorial PMNS synchronization.
+numpy==2.5.1
+scipy==1.18.0
+

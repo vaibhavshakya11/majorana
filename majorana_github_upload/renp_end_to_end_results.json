@@ -1,0 +1,603 @@
+{
+  "metadata": {
+    "purpose": "normalized discovery-then-conditional-D/M demonstration; not a target-specific rate prediction or calibrated significance",
+    "seed": 20260811,
+    "mass_eV": 0.01,
+    "Q_over_m": 1.0,
+    "scan_variable": "t=(s-4m^2)/m^2",
+    "gaussian_sigma_t": 0.025,
+    "selected_signal_counts_per_demonstration": 1200.0,
+    "background_over_signal": 0.1,
+    "projectors": [
+      "H",
+      "V",
+      "D",
+      "A",
+      "R",
+      "L"
+    ],
+    "jones_matrix": [
+      [
+        {
+          "real": 0.8473652591017514,
+          "imag": 0.0
+        },
+        {
+          "real": -0.0442664999448076,
+          "imag": -0.0035488942021350586
+        }
+      ],
+      [
+        {
+          "real": 0.04315733512147229,
+          "imag": 0.0
+        },
+        {
+          "real": 0.8208572444220755,
+          "imag": 0.06580903209294213
+        }
+      ]
+    ],
+    "hypothesis_order": [
+      "first profile H0 background-only against the D-or-M signal union",
+      "only then conditionally compare D against M"
+    ],
+    "instrument_scope": "binned Poisson demonstration with fixed Jones/POVM calibration; event-level artifacts are synthetic records, not a full time-process likelihood"
+  },
+  "physics_snapshot_beta_0p15": {
+    "t": 0.09207161125319692,
+    "beta": 0.15,
+    "s_eV2": 0.0004092071611253197,
+    "delta_eV2": 9.207161125319692e-06,
+    "Q_eV": 0.01,
+    "hypotheses": {
+      "D": {
+        "dimensionless_response_eigenvalues_bright_dark": [
+          0.45808216112531963,
+          0.30920716112531965
+        ],
+        "bright_probability_conditional_on_signal": 0.5970136007909733,
+        "dark_probability_conditional_on_signal": 0.4029863992090267
+      },
+      "M": {
+        "dimensionless_response_eigenvalues_bright_dark": [
+          0.15808216112531967,
+          0.00920716112531969
+        ],
+        "bright_probability_conditional_on_signal": 0.9449626491311551,
+        "dark_probability_conditional_on_signal": 0.05503735086884484
+      }
+    },
+    "exact_dark_M_over_D": 0.029776674937965257,
+    "exact_dark_M_over_D_beta_form": 0.02977667493796526
+  },
+  "discovery_profiles": {
+    "asimov_signal_records": {
+      "D": {
+        "q0_background_only_vs_signal_union": 338.4502470355769,
+        "best_signal_hypothesis": "D",
+        "background_only_fit": {
+          "nll_without_factorial": -1856.1533994690653,
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "signal_count": 0.0,
+          "background_count": 1319.9999910532715,
+          "background_linear": 2.0,
+          "background_quadratic": 0.3782208580950367
+        },
+        "signal_union_fits": {
+          "D": {
+            "nll_without_factorial": -2025.3785229868538,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 1200.0005055732527,
+            "background_count": 120.00064526371926,
+            "background_linear": 0.2500025610338187,
+            "background_quadratic": -0.14992036827225547,
+            "threshold_shift_t": -1.662894544476083e-07,
+            "sigma_t": 0.02500067813032419
+          },
+          "M": {
+            "nll_without_factorial": -1993.4487386880849,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 911.473859206999,
+            "background_count": 408.5254567055658,
+            "background_linear": 2.0,
+            "background_quadratic": -2.0,
+            "threshold_shift_t": -0.019529978649023998,
+            "sigma_t": 0.014999999999999998
+          }
+        }
+      },
+      "M": {
+        "q0_background_only_vs_signal_union": 463.63020537705415,
+        "best_signal_hypothesis": "M",
+        "background_only_fit": {
+          "nll_without_factorial": -2112.28585589194,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 0.0,
+          "background_count": 1319.9999987461229,
+          "background_linear": 2.0,
+          "background_quadratic": 1.537447251412365
+        },
+        "signal_union_fits": {
+          "D": {
+            "nll_without_factorial": -2309.9286773019257,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 1068.6486435420218,
+            "background_count": 251.34985321023527,
+            "background_linear": 2.0,
+            "background_quadratic": 2.0,
+            "threshold_shift_t": 0.025,
+            "sigma_t": 0.04000000000000001
+          },
+          "M": {
+            "nll_without_factorial": -2344.1009585804672,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 1200.0037068698673,
+            "background_count": 119.99590849362338,
+            "background_linear": 0.24993342445747804,
+            "background_quadratic": -0.15095384970825002,
+            "threshold_shift_t": 1.7848220937747112e-06,
+            "sigma_t": 0.02499757767703301
+          }
+        }
+      }
+    },
+    "seeded_signal_records": {
+      "D": {
+        "q0_background_only_vs_signal_union": 351.84110138726464,
+        "best_signal_hypothesis": "D",
+        "background_only_fit": {
+          "nll_without_factorial": -1735.1778163450886,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 0.0,
+          "background_count": 1285.9999953231397,
+          "background_linear": 2.0,
+          "background_quadratic": 0.06861616144934465
+        },
+        "signal_union_fits": {
+          "D": {
+            "nll_without_factorial": -1911.0983670387209,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 1176.2381159694403,
+            "background_count": 109.76099449393378,
+            "background_linear": 0.25772888547332984,
+            "background_quadratic": -2.0,
+            "threshold_shift_t": -0.0010250561065265752,
+            "sigma_t": 0.014999999999999998
+          },
+          "M": {
+            "nll_without_factorial": -1867.4324041759842,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 860.3583290761543,
+            "background_count": 425.64277860535657,
+            "background_linear": 2.0,
+            "background_quadratic": -2.0,
+            "threshold_shift_t": -0.025,
+            "sigma_t": 0.014999999999999998
+          }
+        }
+      },
+      "M": {
+        "q0_background_only_vs_signal_union": 478.6582568496933,
+        "best_signal_hypothesis": "M",
+        "background_only_fit": {
+          "nll_without_factorial": -2146.169186975458,
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "signal_count": 0.0,
+          "background_count": 1327.9999999999998,
+          "background_linear": 2.0,
+          "background_quadratic": 1.5859011381966137
+        },
+        "signal_union_fits": {
+          "D": {
+            "nll_without_factorial": -2346.0189444247094,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 1062.6475445029741,
+            "background_count": 265.35085852736506,
+            "background_linear": 2.0,
+            "background_quadratic": 2.0,
+            "threshold_shift_t": 0.025,
+            "sigma_t": 0.04000000000000001
+          },
+          "M": {
+            "nll_without_factorial": -2385.498315400305,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 1218.4514511140344,
+            "background_count": 109.54637444169913,
+            "background_linear": -0.7873934932123724,
+            "background_quadratic": -2.0,
+            "threshold_shift_t": 0.0057139437368935765,
+            "sigma_t": 0.014999999999999998
+          }
+        }
+      }
+    },
+    "background_only_control": {
+      "asimov": {
+        "total_expected": 120.00000000000003,
+        "q0_background_only_vs_signal_union": 9.094947017729282e-13,
+        "best_signal_hypothesis": "D",
+        "background_only_fit": {
+          "nll_without_factorial": 155.88804401427032,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 0.0,
+          "background_count": 119.99999854792185,
+          "background_linear": 0.24999961723022116,
+          "background_quadratic": -0.14999859059481785
+        },
+        "signal_union_fits": {
+          "D": {
+            "nll_without_factorial": 155.88804401426987,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 0.0,
+            "background_count": 119.99999770941425,
+            "background_linear": 0.24999978578342497,
+            "background_quadratic": -0.14999949926412,
+            "threshold_shift_t": -0.024752844386303974,
+            "sigma_t": 0.02356748263005634
+          },
+          "M": {
+            "nll_without_factorial": 155.8880440142725,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 0.0,
+            "background_count": 119.99999991963098,
+            "background_linear": 0.2499984021054042,
+            "background_quadratic": -0.14999727495264337,
+            "threshold_shift_t": -0.022497667072246774,
+            "sigma_t": 0.03941218579718459
+          }
+        }
+      },
+      "seeded": {
+        "total_observed": 130,
+        "q0_background_only_vs_signal_union": 1.7053025658242404e-13,
+        "best_signal_hypothesis": "D",
+        "background_only_fit": {
+          "nll_without_factorial": 157.86403390572872,
+          "success": true,
+          "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+          "signal_count": 0.0,
+          "background_count": 129.9999993172683,
+          "background_linear": -0.7818836570848008,
+          "background_quadratic": 1.476741368291844
+        },
+        "signal_union_fits": {
+          "D": {
+            "nll_without_factorial": 157.86403390572863,
+            "success": true,
+            "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+            "signal_count": 0.0,
+            "background_count": 130.0000002699626,
+            "background_linear": -0.7818837808739779,
+            "background_quadratic": 1.4767418868111895,
+            "threshold_shift_t": -0.025,
+            "sigma_t": 0.04000000000000001
+          },
+          "M": {
+            "nll_without_factorial": 157.86403390573298,
+            "success": true,
+            "message": "CONVERGENCE: NORM OF PROJECTED GRADIENT <= PGTOL",
+            "signal_count": 0.0,
+            "background_count": 129.99999761019902,
+            "background_linear": -0.7818819536186813,
+            "background_quadratic": 1.4767376140895685,
+            "threshold_shift_t": -0.025,
+            "sigma_t": 0.026450588853653194
+          }
+        }
+      }
+    }
+  },
+  "asimov_profiles": {
+    "D": {
+      "signed_q_positive_favors_D": 63.85956859266753,
+      "q_against_wrong_hypothesis": 63.85956859266753,
+      "equivalent_sqrt_q_sigma_only_if_wilks_regular": 7.991218217059745,
+      "selected_signal_counts_for_q25_by_linear_exposure_scaling": 469.7808121967904,
+      "fits": {
+        "D": {
+          "nll_without_factorial": -2025.3785229855002,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 1199.9935966801304,
+          "background_count": 120.00678368485683,
+          "background_linear": 0.25021636953745485,
+          "background_quadratic": -0.15006899840429144,
+          "threshold_shift_t": 4.818713897195509e-07,
+          "sigma_t": 0.024998253549951905
+        },
+        "M": {
+          "nll_without_factorial": -1993.4487386891665,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 911.4770051580521,
+          "background_count": 408.5229934298649,
+          "background_linear": 2.0,
+          "background_quadratic": -2.0,
+          "threshold_shift_t": -0.019531048159890853,
+          "sigma_t": 0.014999999999999998
+        }
+      }
+    },
+    "M": {
+      "signed_q_positive_favors_D": -68.3445346717208,
+      "q_against_wrong_hypothesis": 68.3445346717208,
+      "equivalent_sqrt_q_sigma_only_if_wilks_regular": 8.267075339666428,
+      "selected_signal_counts_for_q25_by_linear_exposure_scaling": 438.95243627159005,
+      "fits": {
+        "D": {
+          "nll_without_factorial": -2309.928677302874,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 1068.6504824463193,
+          "background_count": 251.3495188099749,
+          "background_linear": 2.0,
+          "background_quadratic": 2.0,
+          "threshold_shift_t": 0.025,
+          "sigma_t": 0.04000000000000001
+        },
+        "M": {
+          "nll_without_factorial": -2344.1009446387343,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 1199.5805298270247,
+          "background_count": 120.42018499467584,
+          "background_linear": 0.2643062052778846,
+          "background_quadratic": -0.11552981761095495,
+          "threshold_shift_t": -1.9620650424026723e-05,
+          "sigma_t": 0.02496845888961923
+        }
+      }
+    }
+  },
+  "seeded_pseudodata": {
+    "D": {
+      "total_observed": 1286,
+      "signed_q_positive_favors_D": 87.33192576138845,
+      "fits": {
+        "D": {
+          "nll_without_factorial": -1911.0983670576916,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 1176.2473686716219,
+          "background_count": 109.7527070327704,
+          "background_linear": 0.2573286316611394,
+          "background_quadratic": -2.0,
+          "threshold_shift_t": -0.0010250538023131473,
+          "sigma_t": 0.014999999999999998
+        },
+        "M": {
+          "nll_without_factorial": -1867.4324041769974,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 860.3589136795606,
+          "background_count": 425.64111304766914,
+          "background_linear": 2.0,
+          "background_quadratic": -2.0,
+          "threshold_shift_t": -0.025,
+          "sigma_t": 0.014999999999999998
+        }
+      },
+      "first_twelve_binned_counts": [
+        {
+          "t": -0.6,
+          "projector": "H",
+          "expected": 0.6848572652970488,
+          "observed": 0
+        },
+        {
+          "t": -0.6,
+          "projector": "V",
+          "expected": 0.6848572652970488,
+          "observed": 0
+        },
+        {
+          "t": -0.6,
+          "projector": "D",
+          "expected": 0.6848572652970488,
+          "observed": 1
+        },
+        {
+          "t": -0.6,
+          "projector": "A",
+          "expected": 0.6848572652970488,
+          "observed": 0
+        },
+        {
+          "t": -0.6,
+          "projector": "R",
+          "expected": 0.6848572652970488,
+          "observed": 1
+        },
+        {
+          "t": -0.6,
+          "projector": "L",
+          "expected": 0.6848572652970488,
+          "observed": 1
+        },
+        {
+          "t": -0.4,
+          "projector": "H",
+          "expected": 0.6974775112135077,
+          "observed": 3
+        },
+        {
+          "t": -0.4,
+          "projector": "V",
+          "expected": 0.6974775112135077,
+          "observed": 0
+        },
+        {
+          "t": -0.4,
+          "projector": "D",
+          "expected": 0.6974775112135077,
+          "observed": 0
+        },
+        {
+          "t": -0.4,
+          "projector": "A",
+          "expected": 0.6974775112135077,
+          "observed": 1
+        },
+        {
+          "t": -0.4,
+          "projector": "R",
+          "expected": 0.6974775112135077,
+          "observed": 0
+        },
+        {
+          "t": -0.4,
+          "projector": "L",
+          "expected": 0.6974775112135077,
+          "observed": 0
+        }
+      ]
+    },
+    "M": {
+      "total_observed": 1328,
+      "signed_q_positive_favors_D": -78.95874194858789,
+      "fits": {
+        "D": {
+          "nll_without_factorial": -2346.018944427609,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 1062.6514700843757,
+          "background_count": 265.3485595508828,
+          "background_linear": 2.0,
+          "background_quadratic": 2.0,
+          "threshold_shift_t": 0.025,
+          "sigma_t": 0.04000000000000001
+        },
+        "M": {
+          "nll_without_factorial": -2385.498315401903,
+          "success": true,
+          "message": "CONVERGENCE: RELATIVE REDUCTION OF F <= FACTR*EPSMCH",
+          "signal_count": 1218.45325027351,
+          "background_count": 109.54694062373126,
+          "background_linear": -0.787335245255716,
+          "background_quadratic": -2.0,
+          "threshold_shift_t": 0.00571388746617686,
+          "sigma_t": 0.014999999999999998
+        }
+      },
+      "first_twelve_binned_counts": [
+        {
+          "t": -0.6,
+          "projector": "H",
+          "expected": 0.6848572652970488,
+          "observed": 1
+        },
+        {
+          "t": -0.6,
+          "projector": "V",
+          "expected": 0.6848572652970488,
+          "observed": 0
+        },
+        {
+          "t": -0.6,
+          "projector": "D",
+          "expected": 0.6848572652970488,
+          "observed": 1
+        },
+        {
+          "t": -0.6,
+          "projector": "A",
+          "expected": 0.6848572652970488,
+          "observed": 0
+        },
+        {
+          "t": -0.6,
+          "projector": "R",
+          "expected": 0.6848572652970488,
+          "observed": 0
+        },
+        {
+          "t": -0.6,
+          "projector": "L",
+          "expected": 0.6848572652970488,
+          "observed": 2
+        },
+        {
+          "t": -0.4,
+          "projector": "H",
+          "expected": 0.6974775112135077,
+          "observed": 0
+        },
+        {
+          "t": -0.4,
+          "projector": "V",
+          "expected": 0.6974775112135077,
+          "observed": 1
+        },
+        {
+          "t": -0.4,
+          "projector": "D",
+          "expected": 0.6974775112135077,
+          "observed": 2
+        },
+        {
+          "t": -0.4,
+          "projector": "A",
+          "expected": 0.6974775112135077,
+          "observed": 1
+        },
+        {
+          "t": -0.4,
+          "projector": "R",
+          "expected": 0.6974775112135077,
+          "observed": 0
+        },
+        {
+          "t": -0.4,
+          "projector": "L",
+          "expected": 0.6974775112135077,
+          "observed": 0
+        }
+      ]
+    }
+  },
+  "artifact_manifest": {
+    "binned_counts": {
+      "path": "renp_synthetic_binned_counts.csv",
+      "sha256": "824a51a3514ea9a053c030f8e40e736a814eb5191dbd3c766a30a4ee373c7bbd"
+    },
+    "event_records": {
+      "path": "renp_synthetic_events.csv",
+      "sha256": "1f3c57355bac4c85f1ba9cbbe06619a1fabd6548ccf9b552962d00439d90dd58"
+    },
+    "exposures": {
+      "path": "renp_synthetic_exposures.csv",
+      "sha256": "f91186cd27d164db820963abb92c8f1329cb05d3d8636cd2c8c33fa4aa3dd17d"
+    },
+    "calibrations": {
+      "path": "renp_synthetic_calibrations.csv",
+      "sha256": "710eee23f0433bfb0fee1f0b653385b3f8786bbecf5639c069918494ab165231"
+    },
+    "mc_truth": {
+      "path": "renp_synthetic_mc_truth.csv",
+      "sha256": "d48638eaef774ace0b5f6027eb416b8d0e08a4b9c1ac58c4c4cad77f6caa6c6b"
+    },
+    "row_counts": {
+      "binned_counts": 486,
+      "event_records": 2744,
+      "exposures": 81,
+      "calibrations": 6,
+      "mc_truth": 486
+    }
+  }
+}

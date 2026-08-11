@@ -1,0 +1,1171 @@
+{
+  "covariant_threshold": {
+    "boost_speed": 0.8678709581498852,
+    "slopes": {
+      "D_max": 0.5000000280873347,
+      "D_min": 0.5000000541979321,
+      "M_max": 0.5000000302014544,
+      "M_min": 1.4999998942445905
+    }
+  },
+  "detector_smearing": {
+    "next_threshold_leakage": {
+      "0.5": [
+        {
+          "gaussian_tail_probability": 0.15865525393145707,
+          "relative_convolved_onset": 0.25336010903829875,
+          "threshold_gap_over_sigma": 1
+        },
+        {
+          "gaussian_tail_probability": 0.02275013194817922,
+          "relative_convolved_onset": 0.030358452171393,
+          "threshold_gap_over_sigma": 2
+        },
+        {
+          "gaussian_tail_probability": 0.01000000000108851,
+          "relative_convolved_onset": 0.012691372432495077,
+          "threshold_gap_over_sigma": 2.326347874
+        },
+        {
+          "gaussian_tail_probability": 0.0013498980316300959,
+          "relative_convolved_onset": 0.0015613399797842552,
+          "threshold_gap_over_sigma": 3
+        },
+        {
+          "gaussian_tail_probability": 0.0010000000005650446,
+          "relative_convolved_onset": 0.0011434591045616216,
+          "threshold_gap_over_sigma": 3.090232306
+        },
+        {
+          "gaussian_tail_probability": 3.167124183311998e-05,
+          "relative_convolved_onset": 3.261253473649371e-05,
+          "threshold_gap_over_sigma": 4
+        },
+        {
+          "gaussian_tail_probability": 9.999999991236468e-07,
+          "relative_convolved_onset": 9.558570236808911e-07,
+          "threshold_gap_over_sigma": 4.753424309
+        },
+        {
+          "gaussian_tail_probability": 2.866515718791945e-07,
+          "relative_convolved_onset": 2.679359059666725e-07,
+          "threshold_gap_over_sigma": 5
+        }
+      ],
+      "1.5": [
+        {
+          "gaussian_tail_probability": 0.15865525393145707,
+          "relative_convolved_onset": 0.1759643237672635,
+          "threshold_gap_over_sigma": 1
+        },
+        {
+          "gaussian_tail_probability": 0.02275013194817922,
+          "relative_convolved_onset": 0.015460159345118291,
+          "threshold_gap_over_sigma": 2
+        },
+        {
+          "gaussian_tail_probability": 0.01000000000108851,
+          "relative_convolved_onset": 0.0059087542513152,
+          "threshold_gap_over_sigma": 2.326347874
+        },
+        {
+          "gaussian_tail_probability": 0.0013498980316300959,
+          "relative_convolved_onset": 0.0006138494910948541,
+          "threshold_gap_over_sigma": 3
+        },
+        {
+          "gaussian_tail_probability": 0.0010000000005650446,
+          "relative_convolved_onset": 0.00044015720201385236,
+          "threshold_gap_over_sigma": 3.090232306
+        },
+        {
+          "gaussian_tail_probability": 3.167124183311998e-05,
+          "relative_convolved_onset": 1.0323138514433905e-05,
+          "threshold_gap_over_sigma": 4
+        },
+        {
+          "gaussian_tail_probability": 9.999999991236468e-07,
+          "relative_convolved_onset": 2.6269584019322927e-07,
+          "threshold_gap_over_sigma": 4.753424309
+        },
+        {
+          "gaussian_tail_probability": 2.866515718791945e-07,
+          "relative_convolved_onset": 7.055138375224714e-08,
+          "threshold_gap_over_sigma": 5
+        }
+      ]
+    },
+    "power_law_convolution": {
+      "0.5": {
+        "edge_constant": 0.4110894793312292,
+        "local_slopes": [
+          {
+            "effective_log_slope": 0.05083021853015998,
+            "smeared_over_raw": 1.9356989471093233,
+            "x_over_sigma": 0.05
+          },
+          {
+            "effective_log_slope": 0.09876419950335483,
+            "smeared_over_raw": 1.4390727089912603,
+            "x_over_sigma": 0.1
+          },
+          {
+            "effective_log_slope": 0.22596135369649223,
+            "smeared_over_raw": 1.0488103319850828,
+            "x_over_sigma": 0.25
+          },
+          {
+            "effective_log_slope": 0.38746367627000433,
+            "smeared_over_raw": 0.9145194525508435,
+            "x_over_sigma": 0.5
+          },
+          {
+            "effective_log_slope": 0.559626675818661,
+            "smeared_over_raw": 0.9005984309814776,
+            "x_over_sigma": 1
+          },
+          {
+            "effective_log_slope": 0.5867641252079183,
+            "smeared_over_raw": 0.9592890563603377,
+            "x_over_sigma": 2
+          },
+          {
+            "effective_log_slope": 0.5109704695361272,
+            "smeared_over_raw": 0.9947878173464308,
+            "x_over_sigma": 5
+          },
+          {
+            "effective_log_slope": 0.5025520638652966,
+            "smeared_over_raw": 0.9987379589278395,
+            "x_over_sigma": 10
+          }
+        ]
+      },
+      "1.5": {
+        "edge_constant": 0.4300199936622598,
+        "local_slopes": [
+          {
+            "effective_log_slope": 0.07031780799847871,
+            "smeared_over_raw": 41.2925128414833,
+            "x_over_sigma": 0.05
+          },
+          {
+            "effective_log_slope": 0.1379152558295749,
+            "smeared_over_raw": 15.651964244554524,
+            "x_over_sigma": 0.1
+          },
+          {
+            "effective_log_slope": 0.3250046260752578,
+            "smeared_over_raw": 4.840661425717201,
+            "x_over_sigma": 0.25
+          },
+          {
+            "effective_log_slope": 0.588274676727702,
+            "smeared_over_raw": 2.3318922700465055,
+            "x_over_sigma": 0.5
+          },
+          {
+            "effective_log_slope": 0.9617733007335042,
+            "smeared_over_raw": 1.4045974693602525,
+            "x_over_sigma": 1
+          },
+          {
+            "effective_log_slope": 1.3081126431561707,
+            "smeared_over_raw": 1.1000081487704492,
+            "x_over_sigma": 2
+          },
+          {
+            "effective_log_slope": 1.4699558289810615,
+            "smeared_over_raw": 1.0151201047710678,
+            "x_over_sigma": 5
+          },
+          {
+            "effective_log_slope": 1.4924994108905405,
+            "smeared_over_raw": 1.0037571371256817,
+            "x_over_sigma": 10
+          }
+        ]
+      }
+    },
+    "sigma_used_for_local_slope": 0.01
+  },
+  "diagonal_threshold": {
+    "dark_orthogonality": 1.1106299962362236e-19,
+    "dark_ratio": [
+      {
+        "absolute_error": 1.56396163381034e-17,
+        "beta": 0.01,
+        "exact": 0.00013332888903703208,
+        "measured": 0.00013332888903701644
+      },
+      {
+        "absolute_error": 1.734723475976807e-18,
+        "beta": 0.05,
+        "exact": 0.0033305578684429647,
+        "measured": 0.003330557868442963
+      },
+      {
+        "absolute_error": 3.469446951953614e-18,
+        "beta": 0.15,
+        "exact": 0.02977667493796526,
+        "measured": 0.029776674937965257
+      },
+      {
+        "absolute_error": 6.938893903907228e-17,
+        "beta": 0.3,
+        "exact": 0.11650485436893204,
+        "measured": 0.11650485436893197
+      },
+      {
+        "absolute_error": 1.1102230246251565e-16,
+        "beta": 0.7,
+        "exact": 0.5616045845272206,
+        "measured": 0.5616045845272205
+      }
+    ],
+    "gram_eigenvalues": [
+      0.7670924822680352,
+      1.2329075177319644
+    ],
+    "recoil_norm_squared": 0.0005865906077851536,
+    "slopes": {
+      "D_max": 0.4999999743406655,
+      "D_min": 0.5000000819182461,
+      "M_max": 0.49999997635334287,
+      "M_min": 1.4999999552144532
+    },
+    "witness_smallest_x": {
+      "D": 0.6234103595928131,
+      "M": 4.4124464324454975e-11
+    }
+  },
+  "gamma_and_cubature": {
+    "cases": [
+      {
+        "boost": [
+          0.31,
+          -0.22,
+          0.17
+        ],
+        "masses": [
+          0.013,
+          0.051
+        ],
+        "q": [
+          0.1258698262585271,
+          0.0390196461401434,
+          -0.027691361776875964,
+          0.02139787046394961
+        ],
+        "relative_LL_error": 3.9524960111733247e-16,
+        "relative_LR_error": 1.642494030527899e-16,
+        "residual_imaginary_over_scale": 9.83794508276028e-17,
+        "s": 0.013096
+      },
+      {
+        "boost": [
+          0.72,
+          0.1,
+          -0.2
+        ],
+        "masses": [
+          0.011,
+          0.018
+        ],
+        "q": [
+          0.06531097635921171,
+          0.04702390297863243,
+          0.006531097635921171,
+          -0.013062195271842342
+        ],
+        "relative_LL_error": 1.6343330895386732e-16,
+        "relative_LR_error": 1.4786308355504884e-16,
+        "residual_imaginary_over_scale": 5.989330380897012e-17,
+        "s": 0.0018409999999999998
+      },
+      {
+        "boost": [
+          0.0,
+          0.0,
+          0.83
+        ],
+        "masses": [
+          0.05,
+          0.05
+        ],
+        "q": [
+          0.3354161862532023,
+          0.0,
+          0.0,
+          0.2783954345901579
+        ],
+        "relative_LL_error": 0.0,
+        "relative_LR_error": 6.448283845993403e-16,
+        "residual_imaginary_over_scale": 7.163778045310314e-18,
+        "s": 0.035
+      }
+    ],
+    "clifford_max_error": 0.0
+  },
+  "high_boost_tradeoff": [
+    {
+      "Dirac_rank_witness": 1.0,
+      "Q_over_m": 0,
+      "bright_to_isotropic_ratio": 0.0,
+      "dark_fraction": 0.5,
+      "ideal_passive_events_for_5sigma": 20.732445927310575
+    },
+    {
+      "Dirac_rank_witness": 0.96,
+      "Q_over_m": 1,
+      "bright_to_isotropic_ratio": 0.5,
+      "dark_fraction": 0.4,
+      "ideal_passive_events_for_5sigma": 28.132176171354384
+    },
+    {
+      "Dirac_rank_witness": 0.5207100591715976,
+      "Q_over_m": 3,
+      "bright_to_isotropic_ratio": 4.5,
+      "dark_fraction": 0.15384615384615385,
+      "ideal_passive_events_for_5sigma": 86.023855505255
+    },
+    {
+      "Dirac_rank_witness": 0.07544378698224852,
+      "Q_over_m": 10,
+      "bright_to_isotropic_ratio": 50.0,
+      "dark_fraction": 0.019230769230769232,
+      "ideal_passive_events_for_5sigma": 740.0645226507319
+    },
+    {
+      "Dirac_rank_witness": 0.008829978855039548,
+      "Q_over_m": 30,
+      "bright_to_isotropic_ratio": 450.0,
+      "dark_fraction": 0.0022123893805309734,
+      "ideal_passive_events_for_5sigma": 6488.339700554627
+    },
+    {
+      "Dirac_rank_witness": 0.0007995202558720615,
+      "Q_over_m": 100,
+      "bright_to_isotropic_ratio": 5000.0,
+      "dark_fraction": 0.00019992003198720512,
+      "ideal_passive_events_for_5sigma": 71874.73791835437
+    }
+  ],
+  "metadata": {
+    "current_convention": "gamma^mu P_L, P_L=(1-gamma5)/2",
+    "literature_gamma_1_minus_gamma5_factor": 4,
+    "metric": "+---",
+    "phase_space_total": "rho/(8*pi), no identical-particle factor",
+    "seeds": [
+      20260810,
+      44117,
+      271828,
+      99,
+      8675309,
+      12345,
+      762341
+    ]
+  },
+  "multi_kraus": {
+    "cauchy_binet_absolute_error": 1.4210854715202004e-14,
+    "two_path_witness_table": [
+      {
+        "relative_weight": 0.0001,
+        "values": [
+          {
+            "angle_degrees": 5,
+            "witness": 3.037841798820206e-06
+          },
+          {
+            "angle_degrees": 15,
+            "witness": 2.6789561063004054e-05
+          },
+          {
+            "angle_degrees": 30,
+            "witness": 9.998000299960004e-05
+          },
+          {
+            "angle_degrees": 60,
+            "witness": 0.00029994000899880014
+          },
+          {
+            "angle_degrees": 90,
+            "witness": 0.00039992001199840027
+          }
+        ]
+      },
+      {
+        "relative_weight": 0.001,
+        "values": [
+          {
+            "angle_degrees": 5,
+            "witness": 3.032381601972841e-05
+          },
+          {
+            "angle_degrees": 15,
+            "witness": 0.0002674140968233792
+          },
+          {
+            "angle_degrees": 30,
+            "witness": 0.0009980029960049942
+          },
+          {
+            "angle_degrees": 60,
+            "witness": 0.0029940089880149826
+          },
+          {
+            "angle_degrees": 90,
+            "witness": 0.003992011984019978
+          }
+        ]
+      },
+      {
+        "relative_weight": 0.01,
+        "values": [
+          {
+            "angle_degrees": 5,
+            "witness": 0.00029785799407493267
+          },
+          {
+            "angle_degrees": 15,
+            "witness": 0.0026266953478200437
+          },
+          {
+            "angle_degrees": 30,
+            "witness": 0.009802960494069207
+          },
+          {
+            "angle_degrees": 60,
+            "witness": 0.029408881482207622
+          },
+          {
+            "angle_degrees": 90,
+            "witness": 0.039211841976276834
+          }
+        ]
+      },
+      {
+        "relative_weight": 0.1,
+        "values": [
+          {
+            "angle_degrees": 5,
+            "witness": 0.0025111152045937083
+          },
+          {
+            "angle_degrees": 15,
+            "witness": 0.02214456135794402
+          },
+          {
+            "angle_degrees": 30,
+            "witness": 0.08264462809917353
+          },
+          {
+            "angle_degrees": 60,
+            "witness": 0.2479338842975206
+          },
+          {
+            "angle_degrees": 90,
+            "witness": 0.33057851239669417
+          }
+        ]
+      },
+      {
+        "relative_weight": 1.0,
+        "values": [
+          {
+            "angle_degrees": 5,
+            "witness": 0.007596123493895969
+          },
+          {
+            "angle_degrees": 15,
+            "witness": 0.06698729810778066
+          },
+          {
+            "angle_degrees": 30,
+            "witness": 0.24999999999999994
+          },
+          {
+            "angle_degrees": 60,
+            "witness": 0.7499999999999999
+          },
+          {
+            "angle_degrees": 90,
+            "witness": 1.0
+          }
+        ]
+      }
+    ]
+  },
+  "off_diagonal_phase": [
+    {
+      "minimum_eigenvalue_exponent": 1.5000016969540853,
+      "phase_over_pi": 0.0,
+      "threshold_isotropic_ratio_analytic": 0.0,
+      "threshold_isotropic_ratio_numeric": 3.3796130576505363e-12
+    },
+    {
+      "minimum_eigenvalue_exponent": 0.5000001311326443,
+      "phase_over_pi": 0.08333333333333333,
+      "threshold_isotropic_ratio_analytic": 0.13397459621556132,
+      "threshold_isotropic_ratio_numeric": 0.13397459621848815
+    },
+    {
+      "minimum_eigenvalue_exponent": 0.500000051137142,
+      "phase_over_pi": 0.25,
+      "threshold_isotropic_ratio_analytic": 0.9999999999999998,
+      "threshold_isotropic_ratio_numeric": 1.0
+    },
+    {
+      "minimum_eigenvalue_exponent": 0.5000000451731368,
+      "phase_over_pi": 0.5,
+      "threshold_isotropic_ratio_analytic": 2.0,
+      "threshold_isotropic_ratio_numeric": 1.9999999999966205
+    }
+  ],
+  "pair_rest_and_spread": {
+    "beta_to_zero_spread_bounds": [
+      {
+        "leakage": 0.001,
+        "max_sigma_Q_meV_for_10meV_mass": 0.7749842582921285,
+        "max_sigma_Q_over_m": 0.07749842582921285
+      },
+      {
+        "leakage": 0.01,
+        "max_sigma_Q_meV_for_10meV_mass": 2.461829819586655,
+        "max_sigma_Q_over_m": 0.24618298195866548
+      },
+      {
+        "leakage": 0.03,
+        "max_sigma_Q_meV_for_10meV_mass": 4.3077489517064285,
+        "max_sigma_Q_over_m": 0.4307748951706429
+      },
+      {
+        "leakage": 0.1,
+        "max_sigma_Q_meV_for_10meV_mass": 8.16496580927726,
+        "max_sigma_Q_over_m": 0.816496580927726
+      }
+    ],
+    "energy_detunings": [
+      {
+        "beta": 0.02,
+        "delta_s_eV2": 1.6006402561025146e-07,
+        "q0_detuning_meV": 0.004001200400140931
+      },
+      {
+        "beta": 0.05,
+        "delta_s_eV2": 1.002506265664158e-06,
+        "q0_detuning_meV": 0.02504697287035451
+      },
+      {
+        "beta": 0.1,
+        "delta_s_eV2": 4.040404040404021e-06,
+        "q0_detuning_meV": 0.10075630518423945
+      },
+      {
+        "beta": 0.15,
+        "delta_s_eV2": 9.207161125319692e-06,
+        "q0_detuning_meV": 0.22886949696694636
+      },
+      {
+        "beta": 0.3,
+        "delta_s_eV2": 3.956043956043954e-05,
+        "q0_detuning_meV": 0.9656967344383662
+      }
+    ],
+    "isotropic_spread": [
+      {
+        "beta": 0.02,
+        "values": [
+          {
+            "ratio": 0.0005332622317024641,
+            "sigma_Q_over_m": 0
+          },
+          {
+            "ratio": 0.0009492559201685971,
+            "sigma_Q_over_m": 0.05
+          },
+          {
+            "ratio": 0.0021951618597124026,
+            "sigma_Q_over_m": 0.1
+          },
+          {
+            "ratio": 0.010830246066020406,
+            "sigma_Q_over_m": 0.25
+          },
+          {
+            "ratio": 0.04048635016961105,
+            "sigma_Q_over_m": 0.5
+          }
+        ]
+      },
+      {
+        "beta": 0.05,
+        "values": [
+          {
+            "ratio": 0.003330557868442956,
+            "sigma_Q_over_m": 0
+          },
+          {
+            "ratio": 0.003743937254261739,
+            "sigma_Q_over_m": 0.05
+          },
+          {
+            "ratio": 0.004982020525944923,
+            "sigma_Q_over_m": 0.1
+          },
+          {
+            "ratio": 0.013563184305291678,
+            "sigma_Q_over_m": 0.25
+          },
+          {
+            "ratio": 0.04303805437724397,
+            "sigma_Q_over_m": 0.5
+          }
+        ]
+      },
+      {
+        "beta": 0.1,
+        "values": [
+          {
+            "ratio": 0.013289036544850434,
+            "sigma_Q_over_m": 0
+          },
+          {
+            "ratio": 0.013693184773498271,
+            "sigma_Q_over_m": 0.05
+          },
+          {
+            "ratio": 0.014903645470123902,
+            "sigma_Q_over_m": 0.1
+          },
+          {
+            "ratio": 0.02329438774513979,
+            "sigma_Q_over_m": 0.25
+          },
+          {
+            "ratio": 0.05212892004132968,
+            "sigma_Q_over_m": 0.5
+          }
+        ]
+      },
+      {
+        "beta": 0.15,
+        "values": [
+          {
+            "ratio": 0.029776674937965257,
+            "sigma_Q_over_m": 0
+          },
+          {
+            "ratio": 0.030165799352419146,
+            "sigma_Q_over_m": 0.05
+          },
+          {
+            "ratio": 0.03133130206755541,
+            "sigma_Q_over_m": 0.1
+          },
+          {
+            "ratio": 0.0394120390952851,
+            "sigma_Q_over_m": 0.25
+          },
+          {
+            "ratio": 0.06720307791175356,
+            "sigma_Q_over_m": 0.5
+          }
+        ]
+      },
+      {
+        "beta": 0.3,
+        "values": [
+          {
+            "ratio": 0.11650485436893197,
+            "sigma_Q_over_m": 0
+          },
+          {
+            "ratio": 0.1168202195761246,
+            "sigma_Q_over_m": 0.05
+          },
+          {
+            "ratio": 0.11776496580046585,
+            "sigma_Q_over_m": 0.1
+          },
+          {
+            "ratio": 0.1243220161443104,
+            "sigma_Q_over_m": 0.25
+          },
+          {
+            "ratio": 0.1469649685384744,
+            "sigma_Q_over_m": 0.5
+          }
+        ]
+      }
+    ],
+    "momentum_mistuning_at_beta_0p15": [
+      {
+        "q0_detuning_meV": 0.22886949696694636,
+        "q_mismatch_meV": 0
+      },
+      {
+        "q0_detuning_meV": 0.23504784094467365,
+        "q_mismatch_meV": 0.5
+      },
+      {
+        "q0_detuning_meV": 0.2535715646727298,
+        "q_mismatch_meV": 1
+      },
+      {
+        "q0_detuning_meV": 0.3274976601971257,
+        "q_mismatch_meV": 2
+      },
+      {
+        "q0_detuning_meV": 0.45011396362669776,
+        "q_mismatch_meV": 3
+      },
+      {
+        "q0_detuning_meV": 0.8376380889322417,
+        "q_mismatch_meV": 5
+      }
+    ],
+    "omega0_and_peg_eV": 0.98,
+    "pair_rest_time_current_leakage": [
+      {
+        "threshold_ratio": 0.00019998000199980003,
+        "time_to_spatial_norm": 0.01
+      },
+      {
+        "threshold_ratio": 0.00179838145668898,
+        "time_to_spatial_norm": 0.03
+      },
+      {
+        "threshold_ratio": 0.019801980198019806,
+        "time_to_spatial_norm": 0.1
+      },
+      {
+        "threshold_ratio": 0.16513761467889906,
+        "time_to_spatial_norm": 0.3
+      }
+    ]
+  },
+  "phase_space_monte_carlo": [
+    {
+      "relative_frobenius_error": 0.01566465868315028,
+      "samples": 1000,
+      "sqrtN_error": 0.49536000207888753
+    },
+    {
+      "relative_frobenius_error": 0.005535154715199584,
+      "samples": 10000,
+      "sqrtN_error": 0.5535154715199584
+    },
+    {
+      "relative_frobenius_error": 0.0012158043588513967,
+      "samples": 100000,
+      "sqrtN_error": 0.38447109631311116
+    },
+    {
+      "relative_frobenius_error": 0.0004213791367913491,
+      "samples": 1000000,
+      "sqrtN_error": 0.4213791367913491
+    }
+  ],
+  "pmns_diagonal_weights": [
+    {
+      "Uei_squared": 0.67565491200000005,
+      "aii": 0.17565491200000005,
+      "aii_squared": 0.030854648109727763,
+      "index": 1
+    },
+    {
+      "Uei_squared": 0.30185508799999999,
+      "aii": -0.19814491200000001,
+      "aii_squared": 0.039261406151487745,
+      "index": 2
+    },
+    {
+      "Uei_squared": 0.02249,
+      "aii": -0.47750999999999999,
+      "aii_squared": 0.2280158001,
+      "index": 3
+    }
+  ],
+  "positivity_scan": {
+    "KM_over_KD_range": [
+      3.826014100597881e-10,
+      1.999999999998065
+    ],
+    "fraction_KM_greater_KD": 0.500194,
+    "min_KD_over_mimj": 6.000000000002004,
+    "min_KM_over_mimj": 2.295608460362168e-09,
+    "min_q_coefficient": 0.0030272864107501185,
+    "samples": 500000
+  },
+  "profile_likelihood_modulation": [
+    {
+      "D_normalized_exposure_for_3sigma": 60.56367047130955,
+      "D_normalized_exposure_for_5sigma": 168.23241797585987,
+      "alternative": "M",
+      "background_over_D_signal_exposure": 0.1,
+      "background_polynomial_degree": 0,
+      "q_per_D_normalized_exposure": 0.14860393912656786,
+      "threshold_and_resolution_nuisance": false,
+      "true": "D"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 94.72375928736915,
+      "D_normalized_exposure_for_5sigma": 263.1215535760254,
+      "alternative": "M",
+      "background_over_D_signal_exposure": 0.1,
+      "background_polynomial_degree": 2,
+      "q_per_D_normalized_exposure": 0.09501312097101383,
+      "threshold_and_resolution_nuisance": true,
+      "true": "D"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 152.01960591333824,
+      "D_normalized_exposure_for_5sigma": 422.2766830926062,
+      "alternative": "M",
+      "background_over_D_signal_exposure": 1.0,
+      "background_polynomial_degree": 0,
+      "q_per_D_normalized_exposure": 0.0592028899557247,
+      "threshold_and_resolution_nuisance": false,
+      "true": "D"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 612.5734177168292,
+      "D_normalized_exposure_for_5sigma": 1701.5928269911922,
+      "alternative": "M",
+      "background_over_D_signal_exposure": 1.0,
+      "background_polynomial_degree": 2,
+      "q_per_D_normalized_exposure": 0.014692116470780942,
+      "threshold_and_resolution_nuisance": true,
+      "true": "D"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 880.4193865362141,
+      "D_normalized_exposure_for_5sigma": 2445.609407045039,
+      "alternative": "M",
+      "background_over_D_signal_exposure": 10.0,
+      "background_polynomial_degree": 0,
+      "q_per_D_normalized_exposure": 0.010222400980296684,
+      "threshold_and_resolution_nuisance": false,
+      "true": "D"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 5269.819918927151,
+      "D_normalized_exposure_for_5sigma": 14638.38866368653,
+      "alternative": "M",
+      "background_over_D_signal_exposure": 10.0,
+      "background_polynomial_degree": 2,
+      "q_per_D_normalized_exposure": 0.0017078382446571823,
+      "threshold_and_resolution_nuisance": true,
+      "true": "D"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 152.82821587749774,
+      "D_normalized_exposure_for_5sigma": 424.52282188193817,
+      "alternative": "D",
+      "background_over_D_signal_exposure": 0.1,
+      "background_polynomial_degree": 0,
+      "q_per_D_normalized_exposure": 0.05888964906332555,
+      "threshold_and_resolution_nuisance": false,
+      "true": "M"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 433.06140510913406,
+      "D_normalized_exposure_for_5sigma": 1202.9483475253724,
+      "alternative": "D",
+      "background_over_D_signal_exposure": 0.1,
+      "background_polynomial_degree": 2,
+      "q_per_D_normalized_exposure": 0.02078227219932459,
+      "threshold_and_resolution_nuisance": true,
+      "true": "M"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 561.1770240300791,
+      "D_normalized_exposure_for_5sigma": 1558.8250667502198,
+      "alternative": "D",
+      "background_over_D_signal_exposure": 1.0,
+      "background_polynomial_degree": 0,
+      "q_per_D_normalized_exposure": 0.016037720032382508,
+      "threshold_and_resolution_nuisance": false,
+      "true": "M"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 3877.9942659782755,
+      "D_normalized_exposure_for_5sigma": 10772.2062943841,
+      "alternative": "D",
+      "background_over_D_signal_exposure": 1.0,
+      "background_polynomial_degree": 2,
+      "q_per_D_normalized_exposure": 0.0023207873407542624,
+      "threshold_and_resolution_nuisance": true,
+      "true": "M"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 3912.2507818342533,
+      "D_normalized_exposure_for_5sigma": 10867.363282872926,
+      "alternative": "D",
+      "background_over_D_signal_exposure": 10.0,
+      "background_polynomial_degree": 0,
+      "q_per_D_normalized_exposure": 0.0023004660237502367,
+      "threshold_and_resolution_nuisance": false,
+      "true": "M"
+    },
+    {
+      "D_normalized_exposure_for_3sigma": 59104.21167797824,
+      "D_normalized_exposure_for_5sigma": 164178.36577216178,
+      "alternative": "D",
+      "background_over_D_signal_exposure": 10.0,
+      "background_polynomial_degree": 2,
+      "q_per_D_normalized_exposure": 0.0001522734124098525,
+      "threshold_and_resolution_nuisance": true,
+      "true": "M"
+    }
+  ],
+  "threshold_gaps": [
+    {
+      "delta_s_eV2": 7.489999999999999e-05,
+      "first_index": 1,
+      "lightest_meV": 0,
+      "next_index": 2,
+      "ordering": "NO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 37.449999999999996,
+      "sigma_micro_eV_for_1pct_tail": 16.098194263443162,
+      "sigma_micro_eV_for_1ppm_tail": 7.878530837041671
+    },
+    {
+      "delta_s_eV2": 9.032412121169962e-05,
+      "first_index": 1,
+      "lightest_meV": 1,
+      "next_index": 2,
+      "ordering": "NO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 45.16206060584981,
+      "sigma_micro_eV_for_1pct_tail": 19.41328771616459,
+      "sigma_micro_eV_for_1ppm_tail": 9.500952927837988
+    },
+    {
+      "delta_s_eV2": 0.00013939952740978572,
+      "first_index": 1,
+      "lightest_meV": 10,
+      "next_index": 2,
+      "ordering": "NO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 69.69976370489286,
+      "sigma_micro_eV_for_1pct_tail": 29.96102366455141,
+      "sigma_micro_eV_for_1ppm_tail": 14.663063756569194
+    },
+    {
+      "delta_s_eV2": 0.00014924724866164155,
+      "first_index": 1,
+      "lightest_meV": 50,
+      "next_index": 2,
+      "ordering": "NO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 74.62362433082077,
+      "sigma_micro_eV_for_1pct_tail": 32.0775861447198,
+      "sigma_micro_eV_for_1ppm_tail": 15.69891923797556
+    },
+    {
+      "delta_s_eV2": 0.00014966027254124242,
+      "first_index": 1,
+      "lightest_meV": 100,
+      "next_index": 2,
+      "ordering": "NO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 74.83013627062121,
+      "sigma_micro_eV_for_1pct_tail": 32.16635702121187,
+      "sigma_micro_eV_for_1ppm_tail": 15.742364116104666
+    },
+    {
+      "delta_s_eV2": 0.002484,
+      "first_index": 3,
+      "lightest_meV": 0,
+      "next_index": 1,
+      "ordering": "IO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 1242.0,
+      "sigma_micro_eV_for_1pct_tail": 533.8840393910923,
+      "sigma_micro_eV_for_1ppm_tail": 261.2853217518226
+    },
+    {
+      "delta_s_eV2": 0.0025816995486449166,
+      "first_index": 3,
+      "lightest_meV": 1,
+      "next_index": 1,
+      "ordering": "IO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 1290.8497743224584,
+      "sigma_micro_eV_for_1pct_tail": 554.8825215477891,
+      "sigma_micro_eV_for_1ppm_tail": 271.5620761812489
+    },
+    {
+      "delta_s_eV2": 0.003300661202171107,
+      "first_index": 3,
+      "lightest_meV": 10,
+      "next_index": 1,
+      "ordering": "IO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 1650.3306010855536,
+      "sigma_micro_eV_for_1pct_tail": 709.4083475348509,
+      "sigma_micro_eV_for_1ppm_tail": 347.1877311606423
+    },
+    {
+      "delta_s_eV2": 0.004543745037889114,
+      "first_index": 3,
+      "lightest_meV": 50,
+      "next_index": 1,
+      "ordering": "IO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 2271.8725189445568,
+      "sigma_micro_eV_for_1pct_tail": 976.5833151334427,
+      "sigma_micro_eV_for_1ppm_tail": 477.9443978192852
+    },
+    {
+      "delta_s_eV2": 0.004830364357541472,
+      "first_index": 3,
+      "lightest_meV": 100,
+      "next_index": 1,
+      "ordering": "IO",
+      "photon_gap_micro_eV_for_Eeg_1eV": 2415.1821787707363,
+      "sigma_micro_eV_for_1pct_tail": 1038.1861654327697,
+      "sigma_micro_eV_for_1ppm_tail": 508.0931180912881
+    }
+  ],
+  "tomography": {
+    "exact_binomial": [
+      {
+        "chernoff_per_informative_event": 0.22314354794007416,
+        "chernoff_t": 0.9999999848790809,
+        "depolarization": 0.0,
+        "informative_events_95_3sigma_5sigma": [
+          11,
+          27,
+          65
+        ],
+        "majorana_leakage": 0.0,
+        "p_dirac": 0.8,
+        "p_majorana": 1.0,
+        "total_six_projector_events_95_3sigma_5sigma": [
+          33,
+          81,
+          195
+        ]
+      },
+      {
+        "chernoff_per_informative_event": 0.07095713467103135,
+        "chernoff_t": 0.6082928227652153,
+        "depolarization": 0.0,
+        "informative_events_95_3sigma_5sigma": [
+          19,
+          64,
+          175
+        ],
+        "majorana_leakage": 0.01,
+        "p_dirac": 0.8,
+        "p_majorana": 0.99,
+        "total_six_projector_events_95_3sigma_5sigma": [
+          57,
+          192,
+          525
+        ]
+      },
+      {
+        "chernoff_per_informative_event": 0.04335951546449675,
+        "chernoff_t": 0.5689814106487381,
+        "depolarization": 0.0,
+        "informative_events_95_3sigma_5sigma": [
+          33,
+          103,
+          288
+        ],
+        "majorana_leakage": 0.03,
+        "p_dirac": 0.8,
+        "p_majorana": 0.97,
+        "total_six_projector_events_95_3sigma_5sigma": [
+          99,
+          309,
+          864
+        ]
+      },
+      {
+        "chernoff_per_informative_event": 0.04504660792757,
+        "chernoff_t": 0.5657983458739683,
+        "depolarization": 0.05,
+        "informative_events_95_3sigma_5sigma": [
+          31,
+          101,
+          278
+        ],
+        "majorana_leakage": 0.01,
+        "p_dirac": 0.785,
+        "p_majorana": 0.9655,
+        "total_six_projector_events_95_3sigma_5sigma": [
+          93,
+          303,
+          834
+        ]
+      },
+      {
+        "chernoff_per_informative_event": 0.015464839905934133,
+        "chernoff_t": 0.5237066904948569,
+        "depolarization": 0.2,
+        "informative_events_95_3sigma_5sigma": [
+          88,
+          292,
+          809
+        ],
+        "majorana_leakage": 0.03,
+        "p_dirac": 0.7400000000000001,
+        "p_majorana": 0.876,
+        "total_six_projector_events_95_3sigma_5sigma": [
+          264,
+          876,
+          2427
+        ]
+      },
+      {
+        "chernoff_per_informative_event": 0.004706582063139901,
+        "chernoff_t": 0.5110311726680525,
+        "depolarization": 0.2,
+        "informative_events_95_3sigma_5sigma": [
+          287,
+          956,
+          2655
+        ],
+        "majorana_leakage": 0.1,
+        "p_dirac": 0.7400000000000001,
+        "p_majorana": 0.8200000000000001,
+        "total_six_projector_events_95_3sigma_5sigma": [
+          861,
+          2868,
+          7965
+        ]
+      }
+    ],
+    "seeded_witness_simulation": [
+      {
+        "D_5_95": [
+          0.3034482758620688,
+          0.9287356321839081
+        ],
+        "D_median": 0.6482758620689655,
+        "M_5_95": [
+          -0.11494252873563227,
+          0.19770114942528727
+        ],
+        "M_median": 0.04597701149425282,
+        "best_threshold": 0.20229885057471253,
+        "equal_prior_error": 0.02488,
+        "replicates": 200000,
+        "total_events": 90
+      },
+      {
+        "D_5_95": [
+          0.47070707070707074,
+          0.7951515151515152
+        ],
+        "D_median": 0.6416161616161615,
+        "M_5_95": [
+          -0.02262626262626255,
+          0.12282828282828284
+        ],
+        "M_median": 0.038787878787878816,
+        "best_threshold": 0.24484848484848487,
+        "equal_prior_error": 0.0001325,
+        "replicates": 200000,
+        "total_events": 300
+      }
+    ]
+  }
+}
